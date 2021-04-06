@@ -1,0 +1,27 @@
+body{}
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: 1vw solid blue;
+  padding: 5vw;
+}
+.text{
+  justify-content: space-between;
+  border: 2px solid blue;
+  background-color: pink;
+  font-family: arial;
+  padding: 5%;
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+  .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .text{
+    width: 20%;
+  }
+}
+/**************correction Louiza */
